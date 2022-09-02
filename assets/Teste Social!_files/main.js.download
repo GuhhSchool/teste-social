@@ -1,0 +1,15 @@
+let button_selected;
+
+function load() {
+    button_selected = undefined;
+}
+
+function botao(value) {
+    if (button_selected) return;
+    document.body.animate([ { opacity: 0 },
+    ], {
+        duration: 1000,
+        fill: "forwards",
+    })
+    setTimeout(() => location.href = `./teste_${value}.html`, 1000);
+}
