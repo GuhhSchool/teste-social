@@ -1,0 +1,134 @@
+body {
+    width: 940px;
+    margin: 20px auto;
+    padding: 10px;
+
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px;
+}
+
+/* ----------- container ----------- */
+
+section {
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    color: white;
+
+    background-color: rgb(146, 78, 255);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px blue;
+}
+
+#div_titulo {
+    color: black;
+}
+
+#div_titulo p {
+    margin: 20px;
+    line-height: 20px;
+}
+
+section hr {
+    margin: 30px;
+    border: none;
+    height: 2px;
+    background-color: rgb(5, 5, 5);
+}
+
+.caixinha {
+    border: 2px solid rgb(246 246 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* ----------- botoes ----------- */
+.botoes {
+    margin: 50px 20px auto;
+}
+
+.botoes button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: -2px;
+
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+
+    background-color: rgba(255, 255, 255, 0.151);
+    border-color: black;
+    transition: background-color 0.2s;
+}
+
+.botoes button:hover {
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+/* ----------- parte 1 ----------- */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+#inserir {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+
+    text-align: center;
+    font-size: 20px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#div_footer {
+    text-align: left;
+}
+
+#exit {
+    background-color: #d649fd52;
+    margin: 20px 0px auto;
+    padding: 7px 10px;
+
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+#exit:hover {
+    background-color: #d549fdc9;
+}
+
+/* ----------- footer ----------- */
+footer {
+    opacity: 0;
+    transform: translateY(-25px);
+    animation: footer 1s 1s forwards;
+}
+
+@keyframes footer {
+    to {
+        opacity: 1;
+        transform: translateY(12.5px);
+    }
+}
