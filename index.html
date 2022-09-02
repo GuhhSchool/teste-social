@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste Social!</title>
+
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="icon" href="./assets/cartola.png">
+</head>
+<body onload="load()">
+    <!-- Cabeçalho-->
+    <header>
+        <h1>Testes sociais 🔎</h1>
+        
+        <!-- decoração -->
+        <div id="coelhinhos">
+            <div id="coelhinho_1">
+                <img id="decoracao_1" src="./assets/heart-r.png">
+            </div>
+
+            <div id="coelhinho_2">
+                <img id="decoracao_2" src="./assets/heart_b.png">
+            </div>
+        </div>
+    </header>
+
+    <div id="div_popup">
+        <h2 id="popup_header">Informações importantes</h2>
+        <h2><span id="fechar" onclick="fechar()">&times;</span>
+        
+        <div id="popup_conteudo">
+            <h1>• Esse site foi feito em apenas 2 dias.</h1>
+            <h1>• O site não está disponível para mobile por conta da flexibilidade dos itens<br> (falta de tempo para ajustar)</h1>
+            <h1>• As pesquisas não são de especialistas, então podem estar incertas!<br>Peço que não considere levar os resultados muito a sério.</h1>
+            <h1><strong>Se divirta!</strong></h1>
+        </div>
+    </div>
+    
+    <!-- Conteiner-->
+    <section>
+        <div id="div_titulo">
+            <h3>Você se considera uma pessoa boa?</h3>
+        </div>
+        <hr>
+        <button id="info" onclick="popup()">Importante</button>
+
+        <div id="div_selecionar">
+            <button id="truque_1" onclick="botao(1)">Teste 1</button>
+            <button id="truque_2" onclick="botao(2)">Teste 2</button>
+            <button id="truque_3" onclick="botao(3)">Teste 3</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;HeyGuhh, 2022</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

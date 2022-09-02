@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste Social - Teste 3</title>
+
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/teste_3.css">
+    <link rel="icon" href="./assets/cartola.png">
+</head>
+<body onload="load()">
+    <!-- Cabeçalho-->
+    <header>
+        <h1>🎩 3º Teste 🎩</h1>
+    </header>
+    
+    <!-- Conteiner-->
+    <section>
+        <div id="div_titulo">
+            <h3>Sua relação com a natureza</h3>
+        </div>
+        <hr>
+
+        <div class="caixinha">
+            <div id="textos">
+                <h3>1. </h3>
+                <h3>Você sempre desliga a luz ao sair de casa?</h3>
+
+                <div class="botoes">
+                    <button id="nao" onclick="botao(0)">quase nunca</button>
+                    <button id="talvez" onclick="botao(1)">as vezes</button>
+                    <button id="sim" onclick="botao(2)">acho que sim!</button>
+                </div>
+            </div>
+        </div> <!-- Fim caixinha -->
+
+        <div id="div_footer">
+            <button id="exit" onclick="exit()">Voltar Ao Menu</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;HeyGuhh, 2022</p>
+    </footer>
+
+    <script src="./js/teste_3.js"></script>
+</body>
+</html>
